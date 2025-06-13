@@ -3,7 +3,7 @@
 //span.style.fontsize = '40px';
 const span = document.querySelector('.mess-with-me');
 span.style.fontSize = "40px";
-span.style.backgroundColor = "green";
+span.style.backgroundColor = "#52f507";
 const hide = document.querySelector('#hide-me-area');
 hide.style.display = "none";
 const img = document.querySelector('#triceratops')
@@ -22,7 +22,7 @@ const rowSection = document.querySelector("#row");
 let isToggled = false;
 toggleButton.addEventListener("click", function () {
   if (!isToggled) {
-    rowSection.style.backgroundColor = "#c8f4f9"; 
+    rowSection.style.backgroundColor = "#52f507"; 
     isToggled = true;
   } else {
     rowSection.style.backgroundColor = "white";
